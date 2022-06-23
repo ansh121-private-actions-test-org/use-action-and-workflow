@@ -1,0 +1,7 @@
+on: [workflow_dispatch]
+
+jobs:
+  call-workflow:
+    uses: ansh121-private-actions-test-org/private-workflow/.github/workflows/called-workflow.yml@main
+    with:
+      username: mona
