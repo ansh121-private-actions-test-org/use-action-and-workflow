@@ -1,0 +1,7 @@
+on: [workflow_dispatch]
+
+jobs:
+  use-action:
+    runs-on: ubuntu-latest
+    steps:    
+    - uses: ansh121-private-actions-test-org/private-action-2@main
